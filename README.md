@@ -1,3 +1,8 @@
+
+# NOTE:  THIS IS AN UNOFFICIAL AND UNSUPPORTED VERSION OF THE UNIFIED ORIGIN DOCKER CONTAINER ONLY COMPATIBLE WITH ARM64 BASED SYSTEMS
+
+
+
 ![logo](https://raw.githubusercontent.com/unifiedstreaming/origin/stable/unifiedstreaming-logo-black.png)
 
 # What is Unified Origin?
@@ -37,7 +42,7 @@ docker run \
   -e UspLicenseKey=<license_key> \
   -v foo.conf:/etc/apache2/conf.d/foo.conf \
   -p 80:80 \
-  unifiedstreaming/unified-origin:latest
+  marcelpo/originarm64:latest
 ```
 
 ## Tutorial
@@ -106,7 +111,7 @@ docker run \
   -v "$(pwd)"/my_use_case.yaml:/usr/share/manifest-edit/my_use_case.yaml \
   -p 1080:80 \
   --name unified-origin-manifest-edit \
-  unifiedstreaming/origin:1.11.5-manifest-edit
+  marcelpo/originarm64:1.11.5-manifest-edit
 ```
 
 You can now edit the `my_use_case.yaml` local file based on your needs. Refer
