@@ -54,7 +54,7 @@ if [ "$REST_API_PORT" ]
 fi
 
 # change Listen 80 to Listen 0.0.0.0:80 to avoid some strange issues when IPv6 is available
-/bin/sed -i "s@Listen 80@Listen 0.0.0.0:80@g" /etc/apache2/httpd.conf
+/bin/sed -i "s@Listen 80@Listen 0.0.0.0:80@g" /etc/apache2/apache2.conf
 
 # USP license
 echo "$UspLicenseKey" > /etc/usp-license.key
