@@ -55,6 +55,7 @@ RUN mkdir -p /run/apache2 \
 
 # Copy apache config and entrypoint script
 COPY conf.d/* /etc/apache2/conf-enabled
+COPY sites-enabled/* /etc/apache2/sites-enabled
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh
 
