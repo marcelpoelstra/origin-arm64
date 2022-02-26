@@ -1,7 +1,9 @@
 
-# NOTE:  THIS IS AN UNOFFICIAL AND UNSUPPORTED VERSION OF THE UNIFIED ORIGIN DOCKER CONTAINER ONLY COMPATIBLE WITH ARM64 BASED SYSTEMS
+# NOTE:  THIS IS AN UNOFFICIAL AND UNSUPPORTED (UBUNTU BASED) VERSION OF THE UNIFIED ORIGIN DOCKER CONTAINER ONLY COMPATIBLE WITH ARM64 BASED SYSTEMS
 
+Changes compared to the original image:
 
+- Ubuntu Focal based and modified to provide arm64 support 
 
 ![logo](https://raw.githubusercontent.com/unifiedstreaming/origin/stable/unifiedstreaming-logo-black.png)
 
