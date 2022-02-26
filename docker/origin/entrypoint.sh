@@ -59,7 +59,7 @@ fi
 # USP license
 echo "$UspLicenseKey" > /etc/usp-license.key
 
-rm -f /run/apache2/httpd.pid
+rm -f /run/apache2/apache2.pid
 
 # first arg is `-f` or `--some-option`
 if [ "${1#-}" != "$1" ]; then
